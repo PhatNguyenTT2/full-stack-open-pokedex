@@ -12,10 +12,8 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
-  
-  time_job:
-    runs-on: ubuntu-latest
-    steps:
       - name: Now it is
         run: |
-          date  
+          date
+  
+  
